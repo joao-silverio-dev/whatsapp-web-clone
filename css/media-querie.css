@@ -1,0 +1,18 @@
+@media (max-width: 1280px) {
+    .profile-name {
+        font-size: 12px;
+    }
+    .message {
+        font-size: 10px;
+    }
+
+    .notification-icon {
+        margin: 10px;
+    }
+    .notification-h1 {
+        font-size: 12px;
+    }
+    .notification-h2 {
+        font-size: 9px;
+    }
+}

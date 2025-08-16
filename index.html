@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatsApp Web Clone</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media-querie.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <main class="main-content">
+        <aside>
+            <header class="header-menu">
+                <nav class="nav-header-menu">
+                    <div id="profile-photo" class="contact-photo"></div>
+                    <ul class="options">
+                        <li><i class="fa-solid fa-spinner"></i></li>
+                        <li><i class="fa-solid fa-message"></i></li>
+                        <li><i class="fa-solid fa-ellipsis-vertical"></i></li>
+                    </ul>
+                </nav>
+            </header>
+            <section>
+                <header class="header-conversation">
+                    <div class="notification-popup">
+                        <div class="notification-icon">
+                            <i class="fa-solid fa-bell"></i>
+                        </div>
+                        <div class="notification-popup-paragraphs">
+                            <p class="notification-h1">
+                                Receba notificações de novas mensagens
+                            </p>
+                            <p class="notification-h2">
+                                Ativar notificações na área de trabalho <i class="fa-solid fa-angle-right"></i>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="search-container">
+                        <div class="search-bar">
+                            
+                            <i class="fa-solid fa-magnifying-glass" id="search-magnifyer-container"></i>
+                            <input type="text" placeholder="Procurar ou começar uma nova conversa" class="input-search">
+                        </div>
+                    </div>
+                </header>
+                <main>
+                    <ul class="mensagens">
+                        <li class="contato" id="contato-1">
+                            <div class="contact-photo" id="pfp1">
+                            </div>
+                            <div class="profile-info">
+                                <p class="profile-name">Sabrina Matos</p>
+                                <p class="message"><i class="fa-solid fa-check-double"></i>Oi, tudo bem?</p>
+                            </div>
+                            <div class="timing">23:40</div>
+                        </li>
+
+                        <li class="contato" id="contato-2">
+                            <div class="contact-photo" id="pfp2">
+                            </div>
+                            <div class="profile-info">
+                                <p class="profile-name">João Augusto</p>
+                                <p class="message">Está disponível para um freela?</p>
+                            </div>
+                            <div class="timing">23:40</div>
+                        </li>
+
+                        <li class="contato" id="contato-3">
+                            <div class="contact-photo" id="pfp3">
+                            </div>
+                            <div class="profile-info">
+                                <p class="profile-name">Marla Silva</p>
+                                <p class="message">O projeto ficou perfeito, obrigada!</p>
+                            </div>
+                            <div class="timing">23:40</div>
+                        </li>
+                    </ul>
+                </main>
+            </section>
+        </aside>
+        <section class="contact-messages">
+            <nav>
+                <div class="contact-photo" id="pfp1"></div>
+                <p>Sabrina Matos</p>
+                <ul>
+                    <li>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-paperclip"></i>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </li>
+                </ul>
+            </nav>
+            <div class="selected-messages">
+                <div class="message-box">
+                    <div class="message-buttons">
+                        <ul>
+                            <li id="emoji">
+                                <i class="fa-regular fa-face-smile"></i>
+                            </li>
+                            <li id="text-box">
+                                <p>Digite uma mensagem</p>
+                            </li>
+                            <li id="audio">
+                                <i class="fa-solid fa-microphone"></i>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <span id="mensagem-oposta"></span>
+                <span id="mensagem-minha"></span>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
